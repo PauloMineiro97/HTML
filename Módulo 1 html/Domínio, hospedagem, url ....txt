@@ -1,0 +1,38 @@
+How does the internet work?  TNQsmPf24go
+Glad you asked
+
+‪
+Tim Berners-Lee > Criou o Http://, HTML e WWW World Wide Web- rede de alcance mundial
+                                            I>Conjunto de servidores especializados em Http
+Internet é a rede de conexão mundial e dentro da internet tem vários servidores 
+
+0 e 1 são digitos binários(bit)
+1 byte é uma sequência de 8 bits > 01000001
+código multibyte > UTF-8
+1024 BYTES = 1kb; 1024kb = 1mb; 1024mb = 1 gb
+
+armazenamento é KB,MB,TB = MEGABYTES ; Transmissão é Kb,Mb,Tb = MEGABITES
+
+MODEM > faz a transferência de onda quadrada (PC cliente) para onda sinusoidal (cabo de TV, telefone ou semelhante)
+Onda quadrada > Onda Sinusoidal
+      ( Modulação )
+Onda Sinusoidal > Onda Quadrada
+      ( Demodulação )
+
+DNS > Domain Name System : Instagram.com, facebook.com < São domínios
+
+DOMÍNIO > é o nome que identifica o site, só pode haver um nome.
+
+HOSPEDAGEM > é o local onde o site vai estar armazenado
+
+'www'.(github{.com})[/gustavoguanabara] > é uma URL  UNIFORM RESOURCE LOCATOR
+
+() DOMÍNIO
+{} TLD
+[] CAMINHO
+'' SUB-DOMÍNIO
+
+O URL é basicamente composto por um sub-domínio 'www', um domínio (facebook.com),
+um TLD {.com, .org, .edu ...} e um caminho [/gustavoguanabara]
+
+

@@ -1,0 +1,58 @@
+Escolha a parte do texto que deseja modificar; Usando os comandos CTRL + SHIFT + P, selecione a opção Wrap With Abbreviation
+e escolha o método que deseja usar ; (b)Negrito; (i)Itálico; (p)Parágrafo...
+
+
+Para colocar em negrito:
+
+h1>Principais Formatações</h1>
+<h2>Negrito:</h2>
+<p>Nessa frase temos um <b> termo em negrito usando a tag B ( não semântica)</b></p>
+<p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag 
+    <b>STRONG</b></p>
+
+
+Itálico:
+
+<h2>Itálico</h2>
+<p>Nesta frase temos um <i>termo em itálico</i> (não semântico)</p>    
+<p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântico)</p>
+
+
+
+Marca Texto:
+
+Ou você cria uma Tag Style no cabeçalho, abaixo do
+<title>
+<style>
+         mark {
+             background-color: aqua;
+
+        }
+    </style>
+
+Ou pode criar dentro do <mark style = "background-color: </mark>
+
+
+Texto GRANDE e texto pequeno:
+
+
+Podemos, quando necessário, aumentar ou diminuir o tamanho das palavras
+usando as tags (BIG or SMALL)
+
+
+
+Textos DELETADO ou INSERIDO:
+
+Para excluir um trecho do texto, usamos a tag(DEL)
+
+E para incluir, ou melhor, para sublinhar um trecho, usamos a tag (INS)
+
+
+
+Para inserir coisas sobrescrita ou subscrita:
+
+Para inserir coisas do tipo potencialização 10², que é um número sobrescrito no outro
+selecionamos o número (²) e usamos a TAG sup
+
+Para inserir coisas do tipo a fórmula da água H2O, no caso, o número 2 deve estar subscrito
+usamos a TAG sup no número (2)

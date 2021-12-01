@@ -1,0 +1,8 @@
+HTML > HyperText Markup Language
+ É focado em CONTEÚDO, são textos, imagens, vídeos, tabelas ...
+
+CSS > Cascading Style Sheets
+ É focado no Design do site, são cores, sombras, tamanhos, posicionamentos ...
+
+JavaScript
+ É focado na interação dos sites, menus, animações, popups

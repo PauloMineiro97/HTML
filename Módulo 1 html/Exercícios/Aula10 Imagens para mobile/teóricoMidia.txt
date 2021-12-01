@@ -1,0 +1,24 @@
+Reproduzir áudio no site segue a mesma ideia que colocar uma imagem
+É necessário colocar o áudio na pasta que iremos CODAR
+Seguinte:
+Usar a TAG <audio src"" controls autoplay
+Dentro do "" o nome do arquivo da música
+controls autoplay : é para dar play na música  
+
+
+Para pegar músicas com direito de uso: Ir no canal próprio do youtube e acessar Studio Youtube
+
+<h1>Reproduzindo Áudio</h1>     
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/Soft Feeling - Cheel.mp3 "controls autoplay>
+    
+
+
+
+
+<p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/Soft Feeling - Cheel.mp3" type="audio/mpeg">
+    <p>Ficará disponível para download no seguinte link <a href="midia/Soft Feeling - Cheel.mp3">Clique aqui</a></p>
+   
+    </audio>

@@ -1,0 +1,48 @@
+! <- já cria o código base  
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+* Toda TAG <head> ... <head> tem a sua abertura e fechadura 
+           abertura   fechamento 
+ 
+------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro exercício</title> * Título modificado
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <hr>
+    
+    <p>Esse é o meu primeiro documento HTML. Estou muito feliz</p>
+    <p>Este é um momento único, estou caminhando novamente... Obrigado Vida, não irei nos desapontar.</p>
+</body>
+</html>
+
+
+
+
+<html lang ="pt-br" - Idioma 
+   < meta charset="UTF-8"> - Permite que no texto contenha acentos nas palavras
+<h1>- É o cabeçalho do texto
+<hr>- Coloca um traço entre o cabeçalho e o parágrafo
+<p> - É o parágrafo

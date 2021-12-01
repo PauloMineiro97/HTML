@@ -1,0 +1,4 @@
+background-size: contain; -> Faz com que a imagem seja 100% reproduzida
+mas a imagem não tampa a view port vw
+
+background-size: cover; -> Não reproduz 100% da imagem, mas tampa toda a zona da view port VH

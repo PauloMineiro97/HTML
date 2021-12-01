@@ -1,0 +1,5 @@
+Para carregar imagens :
+Use a TAG <img src"" alt"">    src = source = origem; alt = alternativa
+Aperte CTRL + ESPAÇO  e selecione a imagem na pasta 
+
+A imagem deve estar em JPG, JPN

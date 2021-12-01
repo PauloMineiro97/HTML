@@ -1,0 +1,26 @@
+Colocando o tamanho de imagem para ter acesso de diferentes meios de tecnologia
+
+Montar imagens em tamanhos diferentes e salvar na pasta onde irá CODAR
+
+
+A TAG <PICTURE> NÃO ACEITA O COMA CTRL+ESPAÇO
+
+Criar a tag <picture>
+Colocar a imagem  maior 
+e colocar as demais imagens para IPAD ou MOBILE representadas pela TAG <source media type ...>
+              
+
+
+<picture>
+        <source media="(max-width:700px )" srcset="Imagens/A.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="Imagens/B.png" type="image/png">
+        <img src="Imagens/C.png" alt="Imagem Flexível">
+    </picture>
+
+source media= Fonte da imagem 
+max-width: = medida máxima da imagem 
+srcset="" = "" representa o local de origem da imagem na pasta
+type="image/png"> = 
+
+<img src="" : Representa a imagem primária do site. É a tag principal
+  

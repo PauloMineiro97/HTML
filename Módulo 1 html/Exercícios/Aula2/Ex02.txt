@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parágrafos</title>
+</head>
+<body>
+    <h1> Parágrafos e quebras de linhas</h1>
+    <hr>
+    <p>Você pode escrever
+        tudo de qualquer
+        jeito.<br>
+
+        Basta colocar tudo em par de tags p e /p
+        Não adianta <br>
+        agora vai &lt;p&gt; <!--asdhsahdhsdsad-->
+        <p>Vamos adicionar alguns símbolos especiais:
+            &reg;
+            &copy;
+            &trade;
+            &real;
+            &dollar;
+            &pound;
+            &delta;
+            &Delta;
+            &downarrow;
+            &leftarrow;
+            &rightarrow;
+            &uparrow;</p>
+        <p>Vamos adicionar alguns emoji:
+            &#x1F405;
+            &#x1F98D;
+
+        </p>    
+    </p>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+
+a tag <br> faz quebra de linhas.
+
+&lt;&gt; -  é a maneira de representar a tag </p> no texto.     lt= LESS THAN/ gt= GREATER THAN
+                                                                   menor que /     maior que
+
+<!--   -> é a forma de colocar um texto como OBS ou semelhante
+
+            &reg; = ®
+            &copy; = ©
+            &trade; = ™
+            &real; = ℜ
+            &dollar; =$ 
+            &pound;= £
+            &delta;= δ
+            &Delta;= Δ
+            &downarrow;= ↓
+            &leftarrow;= ←
+            &rightarrow;= → 
+            &uparrow;= ↑
+
+
+&#x > Usar para adicionar um emoji &#x1F405;  (1F405) representa um emoji

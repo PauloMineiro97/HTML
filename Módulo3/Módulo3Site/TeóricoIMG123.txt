@@ -1,0 +1,41 @@
+vh = view height 
+-> é o tamanho da tela branca que representa o Body
+-> para centralizar uma imagem na tela do body é necessário usar: 
+height :98vh
+
+Funções para personalização de imagens no site
+
+-> Colocando uma imagem de fundo
+background-image: url('imagens/menagao01.png') 
+
+
+-> Colocando o tamanho da imagem 
+background-size: 450px 100px;
+
+-> Colocando a imagem em determindas posiçoes
+background-repeat: repeat-y; -> De cima para baixo
+background-repeat: repeat-x; -> Da Esquerda para direita
+background-repeat: no-repeat;-> Para não haver repetição da imagem
+background-repeat: repeat; -> Vai repetir a imagem
+
+
+
+
+Posicionando a imagem na tela
+
+ background-position: left top;
+-> Mostra a parte da imagem referente ao lado esquerdo cima
+
+
+background-position: left center;
+-> Mostra a parte da imagem referente ao lado esquerdo centralizado
+
+
+background-position: right bottom;
+-> Mostra a parte da imagem referente ao lado direito baixo
+
+
+background-position: right top;
+-> Mostra a parte da imagem referente ao lado direito cima
+
+....

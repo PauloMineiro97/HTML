@@ -1,0 +1,7 @@
+Adicionando Favicon no site:
+
+1°-  salvar a imagem na mesma pasta do site
+
+Na parte do HEAD 
+Em cima da tag <title>, escrever Link e selecionar link.favicon:
+"favicon.ico" < modificar com o ícone escolhido para aparecer no favicon 

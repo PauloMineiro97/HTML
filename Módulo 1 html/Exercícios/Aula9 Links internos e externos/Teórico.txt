@@ -1,0 +1,91 @@
+Criando LINKS externos:
+
+Você vai envelopar com a TAG <a>(âncora) o trecho do texto que deseja criar um link
+
+<p> Você pode acessar o (meu repositório público)  </p>
+                          Envelopar esse trecho  = Ctrl+Shift+P, selecione wrap with abbreviation, use a TAG <a>... Logo após, digite o URL do LINK desejado dentro do "..."
+
+href = Reference Hypertext
+
+target="_blank" rel="external" : Para abrir o link em outra aba
+
+rel="prev" = página anterior> No lugar de rel="external, usa-se essas duas maneiras para indicar 
+rel="next" = próxima página> as páginas anteriores e as seguintes do link interno
+target="_self" = para abrir o link na mesma aba
+target="_blank" = para abrir em outra aba
+<a href=../ : significa que voltará para outra página o link selecionado 
+
+
+<h1>Criando Links externos</h1>
+    <p>Você pode acesssar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/"target="_blank" 
+rel="external">canal no youtube</a>  </p>
+
+
+
+Criando LINKS internos: 
+
+A página interna deverá estar na mesma pasta do primeiro link
+Sendo necessário apenas criar uma âncora com a TAG <a>.
+
+Para criar um link de retorno à primeira página; Basta criar uma âncora <a> na segunda página indicando o link de retorno à primeira página; no caso de uma terceira página em outra pasta. 
+Use <a href="../index.html
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
+1º PÁGINA
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Link</title>
+</head>
+<body>
+    <h1>Criando Links externos</h1>
+    <p>Você pode acesssar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/"target="_blank" rel="external">canal no youtube</a>  </p>
+    <h2>Criando páginas internas</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar a minha <a href="pag002.html"target="_self"rel="next"> segunda página </a></p>
+    <p>Você tbm pode acessar uma <a href="Noticias/pag003.html"target="_self"rel="next">terceira página</a></p>
+    
+</body>
+</html>
+
+
+////////////////////////////////////////////////////////////////////////////////////
+2º PÁGINA
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 02</title>
+</head>
+<body>
+    <h1> Esta é a segunda página do meu site</h1>
+    <p><a href="index.html"rel="prev">voltar para a primeira página</a></p>
+    
+</body>
+</html>
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+3º PÁGINA
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceira Página</title>
+</head>
+<body>
+    <h1>Essa é a terceira Página</h1>
+    <p>Para retornar a <a href="../index.html"rel="prev">primeira página</a></p>
+</body>
+</html>
+
+

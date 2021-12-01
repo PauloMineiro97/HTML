@@ -1,0 +1,32 @@
+Colocando vídeos no site:
+Segue a mesma linha de raciocínio que IMAGENS E SOM
+Colocar vídeos REL
+
+
+
+video src "" controls autoplay
+width = Dimensiona o tamanho do vídeo, como também o tamanho da imagem
+
+
+TAG simples
+<video src="midia/video3.webm"controls autoplay width="500"></video>
+
+TAG a ser usada
+
+<video width="500" controls>
+        <source src="midia/video3.webm" type="video/webm">
+        <source src="midia/videobaixado.mp4" type="video/mp4">
+        <source src="midia/video2.m4v" type="video/m4v">
+    </video>
+
+
+Da maneira acima consome muitos dados do servidor 
+
+Usando vídeos do youtube economiza dados do seu servidor
+
+Vá em compartilhar > incoporar, depois copie o link
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QmmVUdGwAS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
