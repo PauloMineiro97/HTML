@@ -1,0 +1,6 @@
+Todo posicionamento de um box(section)(que toma a maior área) no html, por padrão é relativo
+
+Já o posicionamento de um box (article)(que toma um tamanho menor e dentro da box SECTION, terá uma posição absoluta
+
+transform: é a função de alterar uma box 
+ transform: translate(-50%, -50%);

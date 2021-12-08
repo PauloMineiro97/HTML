@@ -1,0 +1,5 @@
+Shorthand- background
+
+color > image > position > repeat > [size] > attachment.
+
+Ex: background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
